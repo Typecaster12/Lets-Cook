@@ -1,12 +1,71 @@
-# React + Vite
+# Let's Cook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Let's Cook is a modern, responsive recipe app built with React. This application helps you discover and explore recipes from around the world with ease. Whether you're searching by country, food name, or main ingredient, Let's Cook makes finding your next meal simple and fun!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search by Country**: Find traditional recipes from countries like India, Italy, and more.
+- **Search by Food Name**: Quickly look up any dish to see its recipe.
+- **Search by Main Ingredient**: Discover dishes based on what you have in your kitchen.
+- **Responsive Design**: Seamless experience across desktops, tablets, and mobile devices.
+- **Modern UI**: Clean and attractive interface powered by React and react-icons.
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) – UI library
+- [Axios](https://axios-http.com/) – Data fetching
+- [React Router DOM](https://reactrouter.com/) – Routing and navigation
+- [React Icons](https://react-icons.github.io/react-icons/) – Icon library
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js v14 or newer
+- npm or yarn or bun
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/lets-cook.git
+   cd lets-cook
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   bun add
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Usage
+
+- Use the search bar to look up recipes by food name, main ingredient, or country.
+- Browse popular dishes from different cuisines.
+- View detailed recipes with ingredients and cooking steps.
+- Enjoy a fully responsive experience on any device.
+
+
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for suggestions and improvements.
+
+## License
+
+This project is open source. See [LICENSE](LICENSE) for details.
+
+---
+
+Happy Cooking! 🍳
