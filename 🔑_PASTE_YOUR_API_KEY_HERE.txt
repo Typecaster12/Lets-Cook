@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║          🔑 PASTE YOUR GEMINI API KEY HERE 🔑               ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 STEP 1: Get Your API Key
+   → Go to: https://makersuite.google.com/app/apikey
+   → Sign in with Google
+   → Click "Create API Key"
+   → Copy the key (looks like: AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+
+📍 STEP 2: Open the .env File
+   → Look for the file named: .env
+   → It's in the root folder of your project
+   → Open it with any text editor
+
+📍 STEP 3: Paste Your Key
+   → Find this line:
+   
+   VITE_GEMINI_API_KEY=your_api_key_here
+   
+   → Replace "your_api_key_here" with your actual key:
+   
+   VITE_GEMINI_API_KEY=AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   
+   → Save the file
+
+📍 STEP 4: Start the App
+   → Open terminal in project folder
+   → Run: npm run dev
+   → Open: http://localhost:5173
+
+📍 STEP 5: Test Guggi
+   → Look for the orange chat button (bottom-right corner)
+   → Click it
+   → Guggi will greet you!
+   → Start chatting!
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║  ⚠️  IMPORTANT: Never share your API key with anyone!       ║
+║  ⚠️  The .env file is already git-ignored for security      ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ THAT'S IT! Your chatbot is ready to use!
+
+Need help? Check these files:
+  → QUICK_START.md (fastest setup)
+  → CHATBOT_SETUP.md (detailed guide)
+  → GUGGI_FEATURES.md (what Guggi can do)
+  → IMPLEMENTATION_SUMMARY.md (technical details)
+
+Happy cooking with Guggi! 🍳🤖
